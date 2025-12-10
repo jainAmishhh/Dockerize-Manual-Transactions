@@ -1,0 +1,26 @@
+{
+  "name": "dockerize-manual-transactions",
+  "version": "1.0.0",
+  "description": "**📦 Manual Transaction Manager (Dockerized)**",
+  "homepage": "https://github.com/jainAmishhh/Dockerize-Manual-Transactions#readme",
+  "bugs": {
+    "url": "https://github.com/jainAmishhh/Dockerize-Manual-Transactions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainAmishhh/Dockerize-Manual-Transactions.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
