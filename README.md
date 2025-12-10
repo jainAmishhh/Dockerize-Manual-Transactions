@@ -1,4 +1,4 @@
-Manual Transaction Manager (Dockerized)
+**📦 Manual Transaction Manager (Dockerized)**
 
 A simple, containerized micro-project that represents the Manual Transaction section of the larger Artha Finance Platform.
 This project lets users manually add, view, and manage their financial transactions without using any Account Aggregator integration.
@@ -7,7 +7,7 @@ It is designed to apply and demonstrate Docker concepts such as containers, imag
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Features
+**🚀 Features**
 
 Add manual transactions (amount, category, date, notes, etc.)
 - View all transactions
@@ -32,17 +32,17 @@ Multi-stage Docker builds for optimization
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-🧱 Tech Stack
+**🧱 Tech Stack**
 
-Backend
+**Backend**
 - Node.js
 - Express.js
 - MongoDB + Mongoose
 
-Frontend
+**Frontend**
 - React + Vite (or any UI framework you choose)
 
-DevOps / Containerization
+**DevOps / Containerization**
 - Docker
 - Docker Compose
 - Multi-stage Docker builds
@@ -50,7 +50,7 @@ DevOps / Containerization
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-🐳 Docker Features Used
+**🐳 Docker Features Used**
 
 - Dockerfile for backend and frontend
 - Multi-Stage Builds for optimized production images
