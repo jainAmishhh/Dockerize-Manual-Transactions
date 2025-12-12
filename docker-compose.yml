@@ -68,7 +68,7 @@ services:
       - transactions_network
     restart: always
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000/api/auth/login"]
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
       interval: 10s
       timeout: 5s
       retries: 5
