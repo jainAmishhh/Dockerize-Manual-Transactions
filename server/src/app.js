@@ -24,6 +24,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 import authRoutes from "./routes/authUser.route.js";
 import transactionRoutes from "./routes/transaction.route.js";
 
