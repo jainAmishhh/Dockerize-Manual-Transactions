@@ -164,9 +164,9 @@ Restart Everything:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-👨‍💻 Author
+**👨‍💻 Author**
 
 Amish Jain
 Full-Stack & DevOps Learner
-🔗 LinkedIn: https://www.linkedin.com/in/amish-jain-b06680279/
-🔗 GitHub: https://github.com/jainAmishhh
+- LinkedIn: https://www.linkedin.com/in/amish-jain-b06680279/
+- GitHub: https://github.com/jainAmishhh
